@@ -2,9 +2,9 @@ article>div, article>span, article>p{
     padding-inline: 40px;
 }
 
-span{
+article span{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
 
     margin-inline: 15%;
 }
@@ -14,7 +14,7 @@ span>button{
     flex-direction: column;
     
     background-color: rgb(17, 115, 196);
-    color: rgb(124, 184, 233);
+    color:rgb(124, 184, 233);
     font-family: Arial;
     border: none;
     padding: 10px 15px;
