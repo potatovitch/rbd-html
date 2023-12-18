@@ -1,0 +1,48 @@
+/*global css pour tout les fichiers*/
+
+/*all html css*/
+html{
+    font-family: Arial;
+    color:rgb(44, 44, 44);
+}
+ul{
+    list-style-type : none;
+}
+a:link {
+    color: rgb(63, 155, 230);
+    text-decoration: none; 
+}
+a:visited {
+    color: rgb(63, 155, 230);
+    text-decoration: none; 
+}
+a:hover {
+    color: rgb(84, 166, 234);
+    text-decoration: none; 
+}
+a:active {
+    color: rgb(84, 166, 234);
+    text-decoration: none; 
+}
+main{
+    margin-left: 15px;
+}
+
+/*body css*/
+main a:link{
+    color: rgb(47, 113, 168);
+    text-decoration: none;
+}
+main a:visited {
+    color: rgb(47, 113, 168);
+    text-decoration: none; 
+}
+main a:hover {
+    color: rgb(45, 87, 122);
+    text-decoration: none; 
+}
+main a:active {
+    color: rgb(45, 87, 122);
+    text-decoration: none; 
+}
+

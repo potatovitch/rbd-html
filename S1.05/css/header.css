@@ -1,0 +1,73 @@
+/*probablement mettre un header/footer dans toute les pages*/
+
+/*header css*/
+header{
+    background-color:rgb(17, 115, 196);
+    padding:auto;
+    position:fixed;
+    width: 100%;
+    right:0;
+}
+
+header>nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 20px;
+}
+
+header nav>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+
+/*footer css*/
+footer{
+    background-color: lightgrey;
+    
+}
+
+footer>div{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    margin: 7%;  
+}
+
+footer>div>div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    border-width: fit-content;
+}
+
+
+/*recassé mdr jveux mourir en crabe ptn*/
+footer ul{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-around;
+    
+    height: 200px;
+    font-size: large;
+}
+
+footer a{
+    font-weight: bold;
+}
+
+.copyright{
+    margin-inline: 15px;
+}
+
+body{
+    margin: 0;
+    padding:0;
+}

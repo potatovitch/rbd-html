@@ -1,0 +1,29 @@
+article>div, article>span, article>p{
+    padding-inline: 40px;
+}
+
+span{
+    display: flex;
+    justify-content: flex-start;
+
+    margin-inline: 15%;
+}
+
+span>button{
+    display: inline-block;
+    flex-direction: column;
+    
+    background-color: rgb(17, 115, 196);
+    color: rgb(124, 184, 233);
+    font-family: Arial;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+article div>p, article div>ul{
+    font-size: large;
+}

@@ -1,0 +1,15 @@
+ul.shutterstock{
+    display: flex;
+    justify-content: space-around;
+
+    margin-inline: 10%;
+}
+ul.shutterstock>a>img{
+    display: flex;
+    flex-direction: column;
+
+}
+
+div.presentation{
+    padding-right: 55%;
+}
