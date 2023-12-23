@@ -1,0 +1,205 @@
+
+
+span>button{
+    display: inline-block;
+    flex-direction: column;
+    
+    background-color: rgb(17, 115, 196);
+    color:rgb(124, 184, 233);
+    font-family: Arial;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+
+
+/*contactez-nous*/
+.Coord{
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.bouton{
+    transition: all .5s ease-in-out;
+    font-size: 1.125rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: .12px;
+    border: 1px solid;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+    height: 48px;
+    border-radius: 1.5rem;
+    padding: 0 1.5rem;
+    border-color: #15011d;
+    color: #15011d;
+    background: 0 0;
+    
+}
+
+.tg  {
+    border-collapse:collapse;
+    border-color:#9ABAD9;
+    border-spacing:0;
+}
+.tg td{
+    background-color:#EBF5FF;
+    border-color:#9ABAD9;
+    border-style:solid;
+    border-width:1px;
+    color:#444;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+}
+.tg th{
+    background-color:#409cff;
+    border-color:#9ABAD9;
+    border-style:solid;
+    border-width:1px;
+    color:#fff;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.tg .tg-c3ow{
+    border-color:inherit;
+    text-align:center;
+    vertical-align:top;
+}
+
+/*covoit*/
+.covoiturage img{
+	width:50%;
+	height:500px;
+	margin-left: 350px;
+	}
+
+#reservation {
+	display: grid;
+	margin-bottom: 50px;
+	grid-template-columns:repeat(2,1fr);
+	background-color: white;
+	
+}
+
+#reservation button{
+	width: 200px;
+	height: 40px;
+}
+
+#reservation p{
+	margin-left: 185px;
+	
+}
+
+#pagegeneral {
+	display: grid;
+    grid-template-columns: repeat(1,200px);
+	justify-content: center;
+	
+}
+
+#pagegeneral button{
+	width: 300px;
+	height:60px;
+	text-align: center;
+}
+
+#pagegeneral button p{
+	text-align: center;
+	cursor: pointer;
+}
+
+#covoiturage h3{
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ 
+#covoiturage {
+    background: url(covoiturage2.jpg);
+}
+
+/*Services et offres*/
+section div.image-container, section div.text a {
+    display: flex;
+    justify-content: center;
+}
+/*form paiement*/
+.div_form, .last_fieldset {
+    border: none;
+
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38vh;
+  }
+
+.last_form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+
+.last_label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+.last_input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+
+.last_button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+
+.text_projets{
+  padding-inline: 25px;
+  font-size: large;
+}
+
+.bouton_res{
+  display: flex;
+  justify-content: center;
+  transition: all .5s ease-in-out;
+  
+}

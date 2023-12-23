@@ -1,0 +1,64 @@
+        ##Google form##
+
+-nom
+-prenom
+-poste pour lequel vous postulez
+
+
+#user input#
+Q1 : Quels sont vos projets professionnels à courts et long termes ?
+     En quoi notre entreprise permet de s'approcher de la finalité de ce projet ?
+    -blablabla     #input
+
+
+#choix unique/user input#
+Q2 : Par le passé, avez-vous occupé(e) un poste ayant un lien avec des services informatiques
+     ou au conseil en technologie ?
+     -oui, préscisez...     #input
+     -non
+ 
+#choix unique#
+Q3 : Vos compétences concernant informatique sont-elles à jour?
+    -oui (-de 2 ans)                                ###compétences à jour
+    -non elles sont assès anciennes (-de 10 ans)    ###compétences assès à jour
+    -non elle sont anciennes (+de 10 ans)           ###compétences anciennes
+
+#choix unique#
+Q4 : Êtes-vous prêt à voyager ou à être délocalisé(e) en raison de ce poste ?
+    -oui
+    -non
+
+#choix unique#
+Q5 : Sur une échelle de 1 à 10, comment évaluez-vous vos compétences en informatique?
+    -1 --> 10 
+
+#choix multiples/user input#
+Q6 : Quel est/sont votre/vos moyen(s) de locomotion(s) ?
+    -pied
+    -bus
+    -trains
+    -métro
+    -tram
+    -vélo/trotinettes/...
+    -autre
+
+#user input#
+Q7 : En quoi êtes-vous un atout pour l'entreprise ?
+    -blablabla    #input
+
+#choix unique/user input#
+Q8 : Parlez-vous une ou plusieurs autre(s) langue(s) ?
+     Si oui, la ou lesquelles ?
+    -oui couremment, précisez...    #input
+    -oui
+    -non
+
+#choix unique#
+Q9 : Les horaires de nuit sont-ils un problème pour vous ?
+    -oui
+    -non
+    -sans avis
+
+#inputs multiples#
+Q10 : quels sont les 'trucs' professionels auquels vous-avez participés ?
+    -...    #input
